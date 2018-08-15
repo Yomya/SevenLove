@@ -1,7 +1,7 @@
 
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("2/20/2018 00:00:00");//���������ǿ����޸ĵ�
+        BirthDay = new Date("7/27/2018 00:00:00");//���������ǿ����޸ĵ�
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
