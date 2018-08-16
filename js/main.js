@@ -17,3 +17,7 @@
         span_dt_dt.innerHTML = daysold + "天" + hrsold + "时" + minsold + "分" + seconds + "秒";
     }
     show_date_time();
+    var imgUrl = ['img/1.jpg','http://tvax1.sinaimg.cn/crop.0.0.664.664.180/006QtUAqly8fmqt1hpyb5j30ig0igmyj.jpg','https://wxt.sinaimg.cn/thumb300/006QtUAqgy1fmpyqw32n8j30hs0hsdgo.jpg','https://wxt.sinaimg.cn/thumb300/006QtUAqgy1fmah0luo53j30hi0ncaar.jpg'];
+    setInterval(function () {
+      document.getElementById('logo').src=imgUrl[Math.floor(imgUrl.length*Math.random())];
+    },5000)

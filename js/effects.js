@@ -4,7 +4,11 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
       //主题文字
-            S.UI.simulate("XZZ|I'm|HQ|And|I|LOVE|YOU|#countdown 3|#time");
+            S.UI.simulate("XZZ|I'm|HQ|And|I|LOVE|YOU|Miss|YOU|Every|Day|#countdown 3|#time");
+            setTimeout(function () {
+              S.UI.simulate("真真|I'm|洪棋|And|I|Wish|YOU|七|夕|快|乐|#countdown 3|#time");
+            },6000)
+
             S.Drawing.loop(function () {
                 S.Shape.render();
             });

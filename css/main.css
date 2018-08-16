@@ -73,3 +73,14 @@
         width: 100%;
         font-weight: bold;
     }
+    #bottom{
+      position: fixed;
+      bottom: 15px;
+      text-align: center;
+      width: 100%;
+      font-size: 12px；
+
+    }
+    a{
+      font-size: 18px;
+    }
